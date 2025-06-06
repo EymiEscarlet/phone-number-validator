@@ -1,0 +1,67 @@
+:root {
+  --color1: #2b463c;
+  --color2: #688f4e;
+  --color3: #b1d182;
+  --color4: #f4f1e9;
+  --color5: #6a4139;
+}
+body {
+  background: repeating-linear-gradient(var(--color1), 	var(--color1) 30%, var(--color2) 30%, var(--color2) 60%, var(--color3) 60%, var(--color3) 90%);
+  margin: auto;
+  text-align: center;
+
+}
+h1, label, button, p {
+  color: var(--color4);
+}
+.case {
+  background: var(--color5);
+  width: 240px;
+  height: 480px;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+  
+}
+.camera {
+  background: #f4f1e9;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+  margin-bottom: 12px;
+}
+.screen {
+  background: rgb(355, 355, 355, 0.5);
+  width: 190px;
+  height: 380px;
+  margin: auto;
+  padding: 5%;
+  margin-bottom: 10px;
+}
+label, button, input, #results-div {
+  font-size: 1.2em;
+}
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  width: 90px;
+  border: 3px solid linear-gradient(3600deg, var(--color1), var(--color2));
+  background: linear-gradient(3600deg, var(--color1), var(--color2));
+  padding: 2px;
+  border-radius: 3px;
+}
+input {
+  margin-top: 10px;
+  height: 40px;
+  width: 180px;
+  border-radius: 10px;
+  border: none;
+}
+#results-div { 
+  margin-top: 10px;
+  overflow-y: auto;
+  color: #f4f1e9
+}
